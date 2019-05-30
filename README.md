@@ -8,3 +8,9 @@ Weights file for yolov2 can be downloaded from this link: (https://drive.google.
 
 This work is inspired by this yolov2 darkflow implementation (https://github.com/deep-diver/Object-Detection-YOLOv2-Darkflow).
 Note that this code is for direct prediction from multiple raw images using pre-trained yolov2 weights and then storage of the parameters in a csv file.
+
+
+In our paper we showed results on two datasets:
+- A self created diverse dataset with images randomly sampled from our self-shot fire and non-fire
+videos.
+- Foggia's dataset (used for testing), which is available here (https://mivia.unisa.it/datasets/video-analysis-datasets/fire-detection-dataset/).
