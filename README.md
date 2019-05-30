@@ -6,8 +6,9 @@ simple procedure to detect objects in multiple images with this code is:
 - Run the code and the output images with detected objects highlighted by bounding boxes and text labels will be stored in the folder corresponding to the output path. 
 - Moreover, the parameters for each detected object in corresponding image can be found in the csv file saved in the mentioned directory. 
 
-Weights file for yolov2 can be downloaded from this link: (https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU). Also, place the file in the 'bin' folder. If no such folder exist then create one and store the weights file into it. I used the weights named yolo.weights
+Weights file for yolov2 can be downloaded from this link:(https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU). Also, place the file in the 'bin' folder. If no such folder exist then create one and store the weights file into it. I used the weights named yolo.weights
 
 This work is inspired by this yolov2 darkflow implementation (https://github.com/deep-diver/Object-Detection-YOLOv2-Darkflow).
+
 Note that this code is for direct prediction from multiple raw images using pre-trained yolov2 weights and then storage of the parameters in a csv file.
 
